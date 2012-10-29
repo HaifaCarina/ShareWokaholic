@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59E156E163EA9EA004302AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59E156D163EA9EA004302AD /* UIKit.framework */; };
+		A59E1570163EA9EA004302AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59E156F163EA9EA004302AD /* Foundation.framework */; };
+		A59E1572163EA9EA004302AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59E1571163EA9EA004302AD /* CoreGraphics.framework */; };
+		A59E1574163EA9EA004302AD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59E1573163EA9EA004302AD /* CoreData.framework */; };
+		A59E157A163EA9EA004302AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A59E1578163EA9EA004302AD /* InfoPlist.strings */; };
+		A59E157C163EA9EA004302AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E157B163EA9EA004302AD /* main.m */; };
+		A59E1580163EA9EA004302AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E157F163EA9EA004302AD /* AppDelegate.m */; };
+		A59E1583163EA9EA004302AD /* ShareWokaholic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A59E1581163EA9EA004302AD /* ShareWokaholic.xcdatamodeld */; };
+		A59E15A4163EAA03004302AD /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E158B163EAA03004302AD /* Facebook.m */; };
+		A59E15A5163EAA03004302AD /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A59E158D163EAA03004302AD /* FBDialog.bundle */; };
+		A59E15A6163EAA03004302AD /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E158F163EAA03004302AD /* FBDialog.m */; };
+		A59E15A7163EAA03004302AD /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E1591163EAA03004302AD /* FBFrictionlessRequestSettings.m */; };
+		A59E15A8163EAA03004302AD /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E1593163EAA03004302AD /* FBLoginDialog.m */; };
+		A59E15A9163EAA03004302AD /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E1595163EAA03004302AD /* FBRequest.m */; };
+		A59E15AA163EAA03004302AD /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E1599163EAA03004302AD /* NSObject+SBJSON.m */; };
+		A59E15AB163EAA03004302AD /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E159B163EAA03004302AD /* NSString+SBJSON.m */; };
+		A59E15AC163EAA03004302AD /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E159D163EAA03004302AD /* SBJSON.m */; };
+		A59E15AD163EAA03004302AD /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E159F163EAA03004302AD /* SBJsonBase.m */; };
+		A59E15AE163EAA03004302AD /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E15A1163EAA03004302AD /* SBJsonParser.m */; };
+		A59E15AF163EAA03004302AD /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E15A3163EAA03004302AD /* SBJsonWriter.m */; };
+		A59E15B2163EAA32004302AD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E15B1163EAA32004302AD /* RootViewController.m */; };
+		A59E15B4163EB163004302AD /* spongebob.png in Resources */ = {isa = PBXBuildFile; fileRef = A59E15B3163EB163004302AD /* spongebob.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A59E1569163EA9EA004302AD /* ShareWokaholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareWokaholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59E156D163EA9EA004302AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A59E156F163EA9EA004302AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A59E1571163EA9EA004302AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A59E1573163EA9EA004302AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A59E1577163EA9EA004302AD /* ShareWokaholic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareWokaholic-Info.plist"; sourceTree = "<group>"; };
+		A59E1579163EA9EA004302AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A59E157B163EA9EA004302AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A59E157D163EA9EA004302AD /* ShareWokaholic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareWokaholic-Prefix.pch"; sourceTree = "<group>"; };
+		A59E157E163EA9EA004302AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A59E157F163EA9EA004302AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A59E1582163EA9EA004302AD /* ShareWokaholic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShareWokaholic.xcdatamodel; sourceTree = "<group>"; };
+		A59E158A163EAA03004302AD /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		A59E158B163EAA03004302AD /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		A59E158C163EAA03004302AD /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		A59E158D163EAA03004302AD /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		A59E158E163EAA03004302AD /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		A59E158F163EAA03004302AD /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		A59E1590163EAA03004302AD /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		A59E1591163EAA03004302AD /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
+		A59E1592163EAA03004302AD /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		A59E1593163EAA03004302AD /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		A59E1594163EAA03004302AD /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		A59E1595163EAA03004302AD /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		A59E1597163EAA03004302AD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		A59E1598163EAA03004302AD /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		A59E1599163EAA03004302AD /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		A59E159A163EAA03004302AD /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		A59E159B163EAA03004302AD /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		A59E159C163EAA03004302AD /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		A59E159D163EAA03004302AD /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		A59E159E163EAA03004302AD /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		A59E159F163EAA03004302AD /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		A59E15A0163EAA03004302AD /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		A59E15A1163EAA03004302AD /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		A59E15A2163EAA03004302AD /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		A59E15A3163EAA03004302AD /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		A59E15B0163EAA32004302AD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A59E15B1163EAA32004302AD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A59E15B3163EB163004302AD /* spongebob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spongebob.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59E1566163EA9EA004302AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59E156E163EA9EA004302AD /* UIKit.framework in Frameworks */,
+				A59E1570163EA9EA004302AD /* Foundation.framework in Frameworks */,
+				A59E1572163EA9EA004302AD /* CoreGraphics.framework in Frameworks */,
+				A59E1574163EA9EA004302AD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59E155E163EA9EA004302AD = {
+			isa = PBXGroup;
+			children = (
+				A59E1575163EA9EA004302AD /* ShareWokaholic */,
+				A59E156C163EA9EA004302AD /* Frameworks */,
+				A59E156A163EA9EA004302AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A59E156A163EA9EA004302AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59E1569163EA9EA004302AD /* ShareWokaholic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59E156C163EA9EA004302AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59E156D163EA9EA004302AD /* UIKit.framework */,
+				A59E156F163EA9EA004302AD /* Foundation.framework */,
+				A59E1571163EA9EA004302AD /* CoreGraphics.framework */,
+				A59E1573163EA9EA004302AD /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59E1575163EA9EA004302AD /* ShareWokaholic */ = {
+			isa = PBXGroup;
+			children = (
+				A59E1589163EAA03004302AD /* FBConnect */,
+				A59E157E163EA9EA004302AD /* AppDelegate.h */,
+				A59E157F163EA9EA004302AD /* AppDelegate.m */,
+				A59E15B0163EAA32004302AD /* RootViewController.h */,
+				A59E15B1163EAA32004302AD /* RootViewController.m */,
+				A59E1581163EA9EA004302AD /* ShareWokaholic.xcdatamodeld */,
+				A59E1576163EA9EA004302AD /* Supporting Files */,
+			);
+			path = ShareWokaholic;
+			sourceTree = "<group>";
+		};
+		A59E1576163EA9EA004302AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59E15B3163EB163004302AD /* spongebob.png */,
+				A59E1577163EA9EA004302AD /* ShareWokaholic-Info.plist */,
+				A59E1578163EA9EA004302AD /* InfoPlist.strings */,
+				A59E157B163EA9EA004302AD /* main.m */,
+				A59E157D163EA9EA004302AD /* ShareWokaholic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A59E1589163EAA03004302AD /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				A59E158A163EAA03004302AD /* Facebook.h */,
+				A59E158B163EAA03004302AD /* Facebook.m */,
+				A59E158C163EAA03004302AD /* FBConnect.h */,
+				A59E158D163EAA03004302AD /* FBDialog.bundle */,
+				A59E158E163EAA03004302AD /* FBDialog.h */,
+				A59E158F163EAA03004302AD /* FBDialog.m */,
+				A59E1590163EAA03004302AD /* FBFrictionlessRequestSettings.h */,
+				A59E1591163EAA03004302AD /* FBFrictionlessRequestSettings.m */,
+				A59E1592163EAA03004302AD /* FBLoginDialog.h */,
+				A59E1593163EAA03004302AD /* FBLoginDialog.m */,
+				A59E1594163EAA03004302AD /* FBRequest.h */,
+				A59E1595163EAA03004302AD /* FBRequest.m */,
+				A59E1596163EAA03004302AD /* JSON */,
+			);
+			path = FBConnect;
+			sourceTree = "<group>";
+		};
+		A59E1596163EAA03004302AD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				A59E1597163EAA03004302AD /* JSON.h */,
+				A59E1598163EAA03004302AD /* NSObject+SBJSON.h */,
+				A59E1599163EAA03004302AD /* NSObject+SBJSON.m */,
+				A59E159A163EAA03004302AD /* NSString+SBJSON.h */,
+				A59E159B163EAA03004302AD /* NSString+SBJSON.m */,
+				A59E159C163EAA03004302AD /* SBJSON.h */,
+				A59E159D163EAA03004302AD /* SBJSON.m */,
+				A59E159E163EAA03004302AD /* SBJsonBase.h */,
+				A59E159F163EAA03004302AD /* SBJsonBase.m */,
+				A59E15A0163EAA03004302AD /* SBJsonParser.h */,
+				A59E15A1163EAA03004302AD /* SBJsonParser.m */,
+				A59E15A2163EAA03004302AD /* SBJsonWriter.h */,
+				A59E15A3163EAA03004302AD /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59E1568163EA9EA004302AD /* ShareWokaholic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59E1586163EA9EA004302AD /* Build configuration list for PBXNativeTarget "ShareWokaholic" */;
+			buildPhases = (
+				A59E1565163EA9EA004302AD /* Sources */,
+				A59E1566163EA9EA004302AD /* Frameworks */,
+				A59E1567163EA9EA004302AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareWokaholic;
+			productName = ShareWokaholic;
+			productReference = A59E1569163EA9EA004302AD /* ShareWokaholic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59E1560163EA9EA004302AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "NMG Resources, Inc";
+			};
+			buildConfigurationList = A59E1563163EA9EA004302AD /* Build configuration list for PBXProject "ShareWokaholic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A59E155E163EA9EA004302AD;
+			productRefGroup = A59E156A163EA9EA004302AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59E1568163EA9EA004302AD /* ShareWokaholic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59E1567163EA9EA004302AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59E157A163EA9EA004302AD /* InfoPlist.strings in Resources */,
+				A59E15A5163EAA03004302AD /* FBDialog.bundle in Resources */,
+				A59E15B4163EB163004302AD /* spongebob.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59E1565163EA9EA004302AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59E157C163EA9EA004302AD /* main.m in Sources */,
+				A59E1580163EA9EA004302AD /* AppDelegate.m in Sources */,
+				A59E1583163EA9EA004302AD /* ShareWokaholic.xcdatamodeld in Sources */,
+				A59E15A4163EAA03004302AD /* Facebook.m in Sources */,
+				A59E15A6163EAA03004302AD /* FBDialog.m in Sources */,
+				A59E15A7163EAA03004302AD /* FBFrictionlessRequestSettings.m in Sources */,
+				A59E15A8163EAA03004302AD /* FBLoginDialog.m in Sources */,
+				A59E15A9163EAA03004302AD /* FBRequest.m in Sources */,
+				A59E15AA163EAA03004302AD /* NSObject+SBJSON.m in Sources */,
+				A59E15AB163EAA03004302AD /* NSString+SBJSON.m in Sources */,
+				A59E15AC163EAA03004302AD /* SBJSON.m in Sources */,
+				A59E15AD163EAA03004302AD /* SBJsonBase.m in Sources */,
+				A59E15AE163EAA03004302AD /* SBJsonParser.m in Sources */,
+				A59E15AF163EAA03004302AD /* SBJsonWriter.m in Sources */,
+				A59E15B2163EAA32004302AD /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A59E1578163EA9EA004302AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59E1579163EA9EA004302AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59E1584163EA9EA004302AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A59E1585163EA9EA004302AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59E1587163EA9EA004302AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareWokaholic/ShareWokaholic-Prefix.pch";
+				INFOPLIST_FILE = "ShareWokaholic/ShareWokaholic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A59E1588163EA9EA004302AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareWokaholic/ShareWokaholic-Prefix.pch";
+				INFOPLIST_FILE = "ShareWokaholic/ShareWokaholic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59E1563163EA9EA004302AD /* Build configuration list for PBXProject "ShareWokaholic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59E1584163EA9EA004302AD /* Debug */,
+				A59E1585163EA9EA004302AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59E1586163EA9EA004302AD /* Build configuration list for PBXNativeTarget "ShareWokaholic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59E1587163EA9EA004302AD /* Debug */,
+				A59E1588163EA9EA004302AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A59E1581163EA9EA004302AD /* ShareWokaholic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A59E1582163EA9EA004302AD /* ShareWokaholic.xcdatamodel */,
+			);
+			currentVersion = A59E1582163EA9EA004302AD /* ShareWokaholic.xcdatamodel */;
+			path = ShareWokaholic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A59E1560163EA9EA004302AD /* Project object */;
+}
